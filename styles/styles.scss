@@ -5,6 +5,27 @@
     list-style: none;
 }
 
+/* Default styles for larger screens */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+/* Media query for smaller screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, nav, main, footer {
+        padding: 10px;
+    }
+}
 :root {
     --color-primary: #000115;
     --color-secondary: #e6ea11;
